@@ -2,7 +2,7 @@
 //This line tells the operating system that the file is a Node.js script and should be executed with Node.js when you run it.
 
 const { Command } = require('commander');
-const git = require('simple-git')(); //simple-git: A package that allows us to use Git commands from inside a JavaScript program (Node.js).
+const git = require('simple-git')(); 
 const program = new Command();
 
 // Tool description
